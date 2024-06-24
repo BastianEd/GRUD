@@ -1,0 +1,18 @@
+Tengo la siguiente lista con archivo y me piden lo siguiente podrias ayudarme por favor
+Debe crear las siguientes funciones:
+* Agregar libro:
+Al listado de libros existente en el Jso, agregamos al final de la lista el nuevo libro.
+* Editar libro
+Al listado de libros en el Json, editamos la información (Título, AutorID, CategorialD, AnoPublicacion).
+* Eliminar libro
+Al listado de libros en el Json, eliminamos un libro por su ID.
+* Buscar libro
+Al listado de libros en el Json, buscamos un libro por su ID.
+Subdirección de Evaluación de Resultados de Aprendizaje - Subdirección de Dizeño Instruccional 2- 2023
+8
+2. Reportes de la biblioteca
+Los reportes deben ser exportados a un archivo Json llamado "Reportes biblioteca mundo libro.json".
+Mostrar los libros que han sido prestados a un usuario, si cuenta sin prestamos mostrar "Usuario sin prestamos".
+* Mostrar el libro mas solicitado en la biblioteca.
+Las funciones y los reportes deben ser desarrolladas en un archivo separado del menú.
+Cada información solicitada al usuario debe ser validada correspondientemente.
