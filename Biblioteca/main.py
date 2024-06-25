@@ -45,13 +45,12 @@ def eliminador_inador():
     with open("biblioteca.json", mode="r") as file:
         datos= json.load(file)
         id_buscada=input("Ingresa la id a buscar: ")
-        if id_buscada in datos:
+        if id_buscada in datos["Libro"]:
             del(datos[id_buscada])
     with open("biblioteca.json","w") as file:
-        json.dump(datos,file,indent=4)
+        json.dump(datos, file, indent = 4)
 
-
-# eliminador_inador()
+eliminador_inador()
 
 
 
