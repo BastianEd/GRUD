@@ -1,0 +1,613 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "bebida",
+            "precio": 1000
+        },
+        {
+            "id": 2,
+            "nombre": "tomate",
+            "precio": 800
+        },
+        {
+            "id": 3,
+            "nombre": "palta",
+            "precio": 5000
+        },
+        {
+            "id": 4,
+            "nombre": "bebida coke",
+            "precio": 1800
+        },
+        {
+            "id": 5,
+            "nombre": "bebida fantasia",
+            "precio": 1900
+        },
+        {
+            "id": 6,
+            "nombre": "galleta",
+            "precio": 800
+        },
+        {
+            "id": 7,
+            "nombre": "galleta manjar",
+            "precio": 0
+        },
+        {
+            "id": 8,
+            "nombre": "pan",
+            "precio": 1200
+        },
+        {
+            "id": 10,
+            "nombre": "yogurt",
+            "precio": 1500
+        },
+        {
+            "id": 11,
+            "nombre": "queso",
+            "precio": 2500
+        },
+        {
+            "id": 12,
+            "nombre": "jam\u00f3n",
+            "precio": 3000
+        },
+        {
+            "id": 13,
+            "nombre": "mantequilla",
+            "precio": 2000
+        },
+        {
+            "id": 14,
+            "nombre": "margarina",
+            "precio": 1500
+        },
+        {
+            "id": 15,
+            "nombre": "aceite",
+            "precio": 2500
+        },
+        {
+            "id": 16,
+            "nombre": "arroz",
+            "precio": 1200
+        },
+        {
+            "id": 17,
+            "nombre": "fideos",
+            "precio": 1100
+        },
+        {
+            "id": 18,
+            "nombre": "salsa de tomate",
+            "precio": 900
+        },
+        {
+            "id": 19,
+            "nombre": "harina",
+            "precio": 1300
+        },
+        {
+            "id": 20,
+            "nombre": "az\u00facar",
+            "precio": 850
+        },
+        {
+            "id": 21,
+            "nombre": "sal",
+            "precio": 500
+        },
+        {
+            "id": 22,
+            "nombre": "pimienta",
+            "precio": 700
+        },
+        {
+            "id": 23,
+            "nombre": "ajo",
+            "precio": 600
+        },
+        {
+            "id": 24,
+            "nombre": "cebolla",
+            "precio": 900
+        },
+        {
+            "id": 25,
+            "nombre": "zanahoria",
+            "precio": 700
+        },
+        {
+            "id": 26,
+            "nombre": "papa",
+            "precio": 1000
+        },
+        {
+            "id": 27,
+            "nombre": "pollo",
+            "precio": 4000
+        },
+        {
+            "id": 28,
+            "nombre": "carne de res",
+            "precio": 8000
+        },
+        {
+            "id": 29,
+            "nombre": "pescado",
+            "precio": 5000
+        },
+        {
+            "id": 30,
+            "nombre": "huevo",
+            "precio": 2000
+        },
+        {
+            "id": 31,
+            "nombre": "negrita",
+            "precio": 1500
+        },
+        {
+            "id": 31,
+            "nombre": "manuela",
+            "precio": 6969
+        }
+    ],
+    "clientes": [
+        {
+            "id": 1,
+            "nombre": "Emilio",
+            "credito": 1000
+        },
+        {
+            "id": 2,
+            "nombre": "Nathy",
+            "credito": 5000
+        },
+        {
+            "id": 3,
+            "nombre": "Benjamin",
+            "credito": 3000
+        },
+        {
+            "id": 4,
+            "nombre": "Camilo",
+            "credito": 7000
+        },
+        {
+            "id": 5,
+            "nombre": "Guillermo",
+            "credito": 2000
+        }
+    ],
+    "vendedores": [
+        {
+            "id": 1,
+            "nombre": "Cristian"
+        },
+        {
+            "id": 2,
+            "nombre": "Rosita"
+        },
+        {
+            "id": 3,
+            "nombre": "Veronica"
+        }
+    ],
+    "formas_pago": [
+        "debito",
+        "credito"
+    ],
+    "boletas": [
+        {
+            "id_boleta": 1001,
+            "id_cliente": 4,
+            "id_vendedor": 1,
+            "total": 49700,
+            "id_forma_pago": 0
+        },
+        {
+            "id_boleta": 1002,
+            "id_cliente": 1,
+            "id_vendedor": 2,
+            "total": 900,
+            "id_forma_pago": 0
+        },
+        {
+            "id_boleta": 1003,
+            "id_cliente": 2,
+            "id_vendedor": 2,
+            "total": 33700,
+            "id_forma_pago": 1
+        },
+        {
+            "id_boleta": 1004,
+            "id_cliente": 3,
+            "id_vendedor": 1,
+            "total": 69800,
+            "id_forma_pago": 0
+        },
+        {
+            "id_boleta": 1005,
+            "id_cliente": 5,
+            "id_vendedor": 3,
+            "total": 31700,
+            "id_forma_pago": 0
+        },
+        {
+            "id_boleta": 1006,
+            "id_cliente": 1,
+            "id_vendedor": 1,
+            "total": 4300,
+            "id_forma_pago": 0
+        },
+        {
+            "id_boleta": 1007,
+            "id_cliente": 1,
+            "id_vendedor": 1,
+            "total": 54900,
+            "id_forma_pago": 1
+        },
+        {
+            "id_boleta": 1008,
+            "id_cliente": 2,
+            "id_vendedor": 1,
+            "total": 29600,
+            "id_forma_pago": 0
+        },
+        {
+            "id_boleta": 1009,
+            "id_cliente": 5,
+            "id_vendedor": 2,
+            "total": 3000,
+            "id_forma_pago": 0
+        },
+        {
+            "id_boleta": 1010,
+            "id_cliente": 2,
+            "id_vendedor": 3,
+            "total": 6600,
+            "id_forma_pago": 1
+        },
+        {
+            "id_boleta": 1011,
+            "id_cliente": 4,
+            "id_vendedor": 1,
+            "total": 3500,
+            "id_forma_pago": 1
+        },
+        {
+            "id_boleta": 1012,
+            "id_cliente": 2,
+            "id_vendedor": 2,
+            "total": 73900,
+            "id_forma_pago": 1
+        },
+        {
+            "id_boleta": 1013,
+            "id_cliente": 5,
+            "id_vendedor": 1,
+            "total": 26200,
+            "id_forma_pago": 1
+        },
+        {
+            "id_boleta": 1014,
+            "id_cliente": 1,
+            "id_vendedor": 1,
+            "total": 63000,
+            "id_forma_pago": 1
+        },
+        {
+            "id_boleta": 1015,
+            "id_cliente": 2,
+            "id_vendedor": 3,
+            "total": 43700,
+            "id_forma_pago": 1
+        }
+    ],
+    "detalle_boletas": [
+        {
+            "id_boleta": 1001,
+            "id_producto": 17,
+            "cantidad": 6,
+            "total": 6600
+        },
+        {
+            "id_boleta": 1001,
+            "id_producto": 29,
+            "cantidad": 8,
+            "total": 40000
+        },
+        {
+            "id_boleta": 1001,
+            "id_producto": 23,
+            "cantidad": 3,
+            "total": 1800
+        },
+        {
+            "id_boleta": 1001,
+            "id_producto": 19,
+            "cantidad": 1,
+            "total": 1300
+        },
+        {
+            "id_boleta": 1002,
+            "id_producto": 18,
+            "cantidad": 1,
+            "total": 900
+        },
+        {
+            "id_boleta": 1003,
+            "id_producto": 30,
+            "cantidad": 5,
+            "total": 10000
+        },
+        {
+            "id_boleta": 1003,
+            "id_producto": 13,
+            "cantidad": 9,
+            "total": 18000
+        },
+        {
+            "id_boleta": 1003,
+            "id_producto": 5,
+            "cantidad": 3,
+            "total": 5700
+        },
+        {
+            "id_boleta": 1004,
+            "id_producto": 4,
+            "cantidad": 6,
+            "total": 10800
+        },
+        {
+            "id_boleta": 1004,
+            "id_producto": 9,
+            "cantidad": 5,
+            "total": 0
+        },
+        {
+            "id_boleta": 1004,
+            "id_producto": 15,
+            "cantidad": 10,
+            "total": 25000
+        },
+        {
+            "id_boleta": 1004,
+            "id_producto": 11,
+            "cantidad": 10,
+            "total": 25000
+        },
+        {
+            "id_boleta": 1004,
+            "id_producto": 14,
+            "cantidad": 6,
+            "total": 9000
+        },
+        {
+            "id_boleta": 1005,
+            "id_producto": 17,
+            "cantidad": 2,
+            "total": 2200
+        },
+        {
+            "id_boleta": 1005,
+            "id_producto": 6,
+            "cantidad": 6,
+            "total": 4800
+        },
+        {
+            "id_boleta": 1005,
+            "id_producto": 30,
+            "cantidad": 8,
+            "total": 16000
+        },
+        {
+            "id_boleta": 1005,
+            "id_producto": 21,
+            "cantidad": 6,
+            "total": 3000
+        },
+        {
+            "id_boleta": 1005,
+            "id_producto": 5,
+            "cantidad": 3,
+            "total": 5700
+        },
+        {
+            "id_boleta": 1006,
+            "id_producto": 24,
+            "cantidad": 4,
+            "total": 3600
+        },
+        {
+            "id_boleta": 1006,
+            "id_producto": 25,
+            "cantidad": 1,
+            "total": 700
+        },
+        {
+            "id_boleta": 1007,
+            "id_producto": 20,
+            "cantidad": 4,
+            "total": 3400
+        },
+        {
+            "id_boleta": 1007,
+            "id_producto": 3,
+            "cantidad": 7,
+            "total": 35000
+        },
+        {
+            "id_boleta": 1007,
+            "id_producto": 24,
+            "cantidad": 5,
+            "total": 4500
+        },
+        {
+            "id_boleta": 1007,
+            "id_producto": 10,
+            "cantidad": 8,
+            "total": 12000
+        },
+        {
+            "id_boleta": 1008,
+            "id_producto": 1,
+            "cantidad": 7,
+            "total": 7000
+        },
+        {
+            "id_boleta": 1008,
+            "id_producto": 8,
+            "cantidad": 4,
+            "total": 4800
+        },
+        {
+            "id_boleta": 1008,
+            "id_producto": 2,
+            "cantidad": 8,
+            "total": 6400
+        },
+        {
+            "id_boleta": 1008,
+            "id_producto": 5,
+            "cantidad": 6,
+            "total": 11400
+        },
+        {
+            "id_boleta": 1009,
+            "id_producto": 12,
+            "cantidad": 1,
+            "total": 3000
+        },
+        {
+            "id_boleta": 1010,
+            "id_producto": 17,
+            "cantidad": 6,
+            "total": 6600
+        },
+        {
+            "id_boleta": 1011,
+            "id_producto": 22,
+            "cantidad": 5,
+            "total": 3500
+        },
+        {
+            "id_boleta": 1012,
+            "id_producto": 10,
+            "cantidad": 1,
+            "total": 1500
+        },
+        {
+            "id_boleta": 1012,
+            "id_producto": 6,
+            "cantidad": 8,
+            "total": 6400
+        },
+        {
+            "id_boleta": 1012,
+            "id_producto": 29,
+            "cantidad": 10,
+            "total": 50000
+        },
+        {
+            "id_boleta": 1012,
+            "id_producto": 13,
+            "cantidad": 8,
+            "total": 16000
+        },
+        {
+            "id_boleta": 1013,
+            "id_producto": 14,
+            "cantidad": 4,
+            "total": 6000
+        },
+        {
+            "id_boleta": 1013,
+            "id_producto": 20,
+            "cantidad": 10,
+            "total": 8500
+        },
+        {
+            "id_boleta": 1013,
+            "id_producto": 18,
+            "cantidad": 1,
+            "total": 900
+        },
+        {
+            "id_boleta": 1013,
+            "id_producto": 13,
+            "cantidad": 5,
+            "total": 10000
+        },
+        {
+            "id_boleta": 1013,
+            "id_producto": 2,
+            "cantidad": 1,
+            "total": 800
+        },
+        {
+            "id_boleta": 1014,
+            "id_producto": 19,
+            "cantidad": 10,
+            "total": 13000
+        },
+        {
+            "id_boleta": 1014,
+            "id_producto": 26,
+            "cantidad": 1,
+            "total": 1000
+        },
+        {
+            "id_boleta": 1014,
+            "id_producto": 27,
+            "cantidad": 2,
+            "total": 8000
+        },
+        {
+            "id_boleta": 1014,
+            "id_producto": 3,
+            "cantidad": 6,
+            "total": 30000
+        },
+        {
+            "id_boleta": 1014,
+            "id_producto": 17,
+            "cantidad": 10,
+            "total": 11000
+        },
+        {
+            "id_boleta": 1015,
+            "id_producto": 30,
+            "cantidad": 10,
+            "total": 20000
+        },
+        {
+            "id_boleta": 1015,
+            "id_producto": 14,
+            "cantidad": 7,
+            "total": 10500
+        },
+        {
+            "id_boleta": 1015,
+            "id_producto": 16,
+            "cantidad": 10,
+            "total": 12000
+        },
+        {
+            "id_boleta": 1015,
+            "id_producto": 9,
+            "cantidad": 7,
+            "total": 0
+        },
+        {
+            "id_boleta": 1015,
+            "id_producto": 8,
+            "cantidad": 1,
+            "total": 1200
+        }
+    ]
+}
